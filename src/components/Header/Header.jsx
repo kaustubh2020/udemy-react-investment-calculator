@@ -1,8 +1,10 @@
 import logo from "../../assets/investment-calculator-logo.png";
 
-const Header = ({title}) => {
+import styles from "./Header.module.css";
+
+const Header = ({ title }) => {
   return (
-    <header className="header">
+    <header className={styles.header}>
       <img src={logo} alt="logo" />
       <h1>{title}</h1>
     </header>
